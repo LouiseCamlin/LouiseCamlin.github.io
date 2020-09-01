@@ -1,0 +1,58 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#social-media-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+.social-media-cell {
+  margin: 15px;
+}
+
+.social-media-icon {
+  width: 45px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+}
+
+.social-media-icon:hover {
+  transform: translateY(2.5px);
+  background-color: #dedede;
+}
+
+#projects-container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.project-cell {
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+  transition-duration: 0.3s;
+  padding: 10px;
+  max-width: calc(33.3% - 40px);
+}
+
+
+.project-cell:hover {
+  background-color: #dedede;
+}
+
+.project-cell img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
